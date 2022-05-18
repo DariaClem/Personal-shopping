@@ -43,7 +43,7 @@ Acest proiect are ca scop implementarea a două design pattern-uri și a unui te
 
 - start() -> ilustrarea meniului interactic
           
-- cos() -> afiseaza un desen
+- cos() -> afiseaza un desen :shopping_cart:
                                               
 Desert și Aperitiv sunt clase derivate ale clasei OfertaZilei pentru a putea folosi Factory Pattern.
 
