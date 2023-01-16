@@ -1,5 +1,5 @@
 ### Object-oriented programming 🖥️
-# Restaurant 
+# Personal shopping
 
 [Română :romania:](#cerință)
 
@@ -11,7 +11,7 @@ This project aims to implement two design patterns and a template. The complexit
 
 ### The classes presented are:
 
-**OfertaZilei**, a class within which different objects will be returned, depending on the user's choice. We used the Factory Pattern.
+**OfertaZilei**, a class within which different objects will be returned, depending on the user's choice. I used the Factory Pattern.
 
 **Aperitiv**, a template class. It will be useful when we want to display the final price of a product (price/kg * quantity).
 
@@ -21,7 +21,7 @@ This project aims to implement two design patterns and a template. The complexit
 - calories (int)
 
 **Chec**, a class with the attributes: 
--weight (int) 
+- weight (int) 
 - priceKg (int) 
 - sugar (int)
 
@@ -69,16 +69,19 @@ Acest proiect are ca scop implementarea a două design pattern-uri și a unui te
 
 **Aperitiv** constituie o clasă *template*. Acesta va fi folositoare în momentul în care vom vrea să afișăm prețul final al unui produs (pret/kg * cantitate).
 
-**Rulada** constituie o clasă cu atributele : - gramaj (int)
-                                              - pretKg (int)
-                                              - calorii (int)
+**Rulada** constituie o clasă cu atributele : 
+- gramaj (int)
+- pretKg (int)
+- calorii (int)
 
-**Chec** constituie o clasă cu atributele : - gramaj (int)
-                                            - pretKg  (int)
-                                            - zahar (int)
+**Chec** constituie o clasă cu atributele : 
+- gramaj (int)
+- pretKg  (int)
+- zahar (int)
                                             
-**Desert** constituie o clasă cu atributele : - tipServire (string - "rece"/"cald")
-                                              - pret (int)
+**Desert** constituie o clasă cu atributele : 
+- tipServire (string - "rece"/"cald")
+- pret (int)
                                               
 **Meniu** constituie clasa care poate avea o singură instanță de acest fel. Această clasă constituie nucleul codului. 
 
