@@ -2,15 +2,7 @@
 
 using namespace std;
 
-/*
- * Meniu -> Singleton ☻
- * OfertaZilei -> Factory ☻
- * Desert ☻
- * Aperitiv  * Rulada ☻
- *           * Rulori ☻
- * Aperitiv -> Template ☻*/
-
-//OfertaZilei este o clasa implementata ca factory pattern.
+// OfertaZilei is a class implemented as a factory pattern.
 class OfertaZilei {
 public:
     OfertaZilei();
@@ -43,7 +35,7 @@ public:
     friend class OfertaZilei;
 
 private:
-    string tipServire;  //rece, cald
+    string tipServire;  // cold, warm
     int pret;
 };
 
@@ -80,7 +72,7 @@ Desert::Desert(const Desert &desert) {
     this->tipServire = desert.tipServire;
 }
 
-//Aperitiv este clasa template. O voi folosi pentru a afisa pretul final al unor produse.
+// Aperitiv is the template class. I will use it to display the final price of some products.
 template<class T>
 class Aperitiv : public OfertaZilei {
 public:
@@ -281,7 +273,7 @@ istream &operator>>(istream &citire, OfertaZilei &ofertaZilei) {
     return citire;
 }
 
-// Meniul este implementat ca singleton.
+// The menu is implemented as a singleton.
 class Meniu {
 public:
     static Meniu *generareUnic();
