@@ -1,4 +1,4 @@
-### Object-oriented programming 🖥️
+### Object-oriented programming :compass:	
 # Personal shopping
 
 [Română :romania:](#cerință)
