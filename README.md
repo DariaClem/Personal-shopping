@@ -53,7 +53,7 @@ This project aims to implement two design patterns and a template. The complexit
 
 - start() -> illustrates the interactive menu
 
-- cos() -> displays a shopping cart
+- cos() -> displays a shopping cart :shopping_cart:
 
 Desert and Aperitiv are derived classes of OfertaZilei in order to use the Factory Pattern.
 
